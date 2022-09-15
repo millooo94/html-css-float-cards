@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    font-family: 'Poppins', sans-serif;
-}
-
 .container {
     max-width: 900px;
     background-color: red;
@@ -16,35 +12,33 @@ html {
 }
 
 
-.card{
+
+
+
+.card {
     float: left;
     width: calc(33,3%-2rem);
-    height: 85px;
     margin: 1rem;
-    background-color: blueviolet;
-
+    background-color: purple;
 }
 
-.pic {
 
-    width: 80px;
+
+.pic {
     float: left;
+    width: 80px;
 }
 
 .name {
     display: block;
-    font-size: 10px;
 }
 
 .job {
     display: block;
-    font-size: 10px;
 }
 
 .email {
     display: block;
-    font-size: 10px;
-    
 }
 
 .clearfix::after {
@@ -52,5 +46,3 @@ html {
     display: table;
     clear: both;
 }
-
-
