@@ -14,10 +14,10 @@
 
 
 
-
 .card {
     float: left;
-    width: calc(33,3%-2rem);
+    width: calc(33,3% - 2rem);
+    height: 100px;
     margin: 1rem;
     background-color: purple;
 }
@@ -39,6 +39,7 @@
 
 .email {
     display: block;
+    font-size: 10px;
 }
 
 .clearfix::after {
