@@ -17,8 +17,8 @@ html {
 
 
 .card{
-    
-    width: 290px;
+    float: left;
+    width: calc(33,3%-2rem);
     height: 85px;
     margin: 1rem;
     background-color: blueviolet;
@@ -28,6 +28,7 @@ html {
 .pic {
 
     width: 80px;
+    float: left;
 }
 
 .name {
@@ -44,6 +45,12 @@ html {
     display: block;
     font-size: 10px;
     
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
